@@ -1,0 +1,110 @@
+
+:root{
+    --vermelho: #ffb703;
+    --preto:#023047;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preto);
+    font-family: 'Martel Sans', sans-serif;
+    color: #fff;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 40px;
+    
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+
+/* filme principal */
+
+.serie-principal{
+    font-size: 16px;
+    background:linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.616)100%), url('../img/capa-himym2.jpg');
+
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.serie-principal .container .titulo{
+    color: #ffb703;
+}
+
+.serie-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+.serie-principal .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+}
+
+
+
+.botao{
+    background-color:rgba(0, 0, 0, 0.61);
+    border: none;
+    color: #fff;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: #fff;
+    color: #141414;
+}
+
+.botao .fa-solid{
+    margin-right: 10px;
+}
+
+.container{
+    margin-left: 30px;
+}
+
+.serie-principal .container{
+    width: 37%;
+}
+
+.box-series{
+    height: 60%;
+    width: 100%;
+    display: block;
+}
