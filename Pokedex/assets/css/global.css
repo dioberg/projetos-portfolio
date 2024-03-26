@@ -1,0 +1,18 @@
+@import url('./pokedex.css');
+
+*{
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #d5d6d8;
+}
+
+.content{
+    padding: 1rem;
+    background-color: white;
+    
+    width: 100vw;
+}
