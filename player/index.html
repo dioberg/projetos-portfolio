@@ -12,28 +12,30 @@
 <body>
     <div class="music-container">
         <h4 id="playlist-title">Playlist Diobergue</h4>
-        <img id="cover" src="images/metallica-deluxe-CD-capa.jpg" alt="">
+        <img id="cover" alt="Disc Cover">
+        <audio id="audio" ></audio>
 
         <div id="below-cover">
             
             <div id="song-info">
-                <div id="song-name">Atlas, Rise!</div>
-                <div id="band-name" class="light-color">Metallica</div>
+                <div id="song-name">nome da musica</div>
+                <div id="band-name" class="light-color">nome da banda</div>
             </div>
 
-            <div id="like" class="button light-color"><i class="bi bi-heart-fill"></i></div>
+            <button id="like" class="button light-color"><i class="bi bi-heart-fill"></i></button>
         </div>
         <div id="progress-bar">
             <div id="current-progress"></div>
         </div>
         <div id="button-container">
-            <div id="shuffle" class="button"><i class="bi bi-shuffle"></i></div>
-            <div id="previous" class="button button-navigate"><i class="bi bi-skip-start-circle-fill"></i></i></div>
-            <div id="play" class="button button-biggest"><i class="bi bi-play-circle-fill"></i></div>
-            <div id="next" class="button button-navigate"><i class="bi bi-skip-end-circle-fill"></i></div>
-            <div id="repeat" class="button"><i class="bi bi-repeat"></i></div>
+            <button id="shuffle" class="button"><i class="bi bi-shuffle"></i></button>
+            <button id="previous" class="button button-navigate"><i class="bi bi-skip-start-circle-fill"></i></i></button>
+            <button id="play" class="button button-biggest"><i class="bi bi-play-circle-fill"></i></button>
+            <button id="next" class="button button-navigate"><i class="bi bi-skip-end-circle-fill"></i></button>
+            <button id="repeat" class="button"><i class="bi bi-repeat"></i></button>
         </div>
     </div>
-   
+
+    <script src="./script.js"></script>
 </body>
 </html>
