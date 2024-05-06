@@ -27,7 +27,7 @@ button {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 3rem 0 1rem 0;
+    margin: 3em 0 1em 0;
 }
 
 #button-container{
@@ -38,15 +38,15 @@ button {
 }
 
 .button{
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 
 .button-navigate {
-    font-size: 3rem;
+    font-size: 3em;
 }
 
 .button-biggest {
-    font-size: 4rem;
+    font-size: 4em;
 }
 
 #cover {
@@ -57,12 +57,12 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin:1rem 0 4rem 0 ;
+    margin:1em 0 4em 0 ;
 
 }
 
 #song-name {
-    font-size: 1.5rem;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
@@ -75,13 +75,18 @@ button {
     height: 3px;
     width: 100%;
     border-radius: 15px;
-    margin-bottom: 1rem;
+    
+    
 }
 
 #current-progress{
     --progress: 0%;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     height: inherit;
     width: var(--progress);
     border-radius: inherit;
+}
+
+#progress-container {
+    padding-bottom: 1em;
 }
