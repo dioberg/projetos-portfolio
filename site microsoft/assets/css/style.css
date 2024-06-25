@@ -1,0 +1,253 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+
+    img {
+        height: 36px;
+        margin: 16px 10px;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    li {
+        cursor: pointer;
+        color: #262626;
+    }
+}
+
+.carousel-content {
+    position: absolute;
+    top: 140px;
+    width: 30%;
+    margin-left: 5%;
+
+
+    h2 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 1.rem;
+    }
+
+    button {
+        margin-top: 80px;
+        background-color: #0067b8;
+        color: #fff;
+        padding: 10px 12px;
+        font-weight: 500;
+        border: none;
+    }
+
+    a {
+        font-size: 1.2rem;
+        margin-left: 10px;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    
+}
+
+
+.links {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 80px 0;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+        img {
+            height: 40px;
+        }
+
+        a {
+            color: #0067b8;
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+    }
+}
+
+
+.container-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0 5%;
+    
+    .wrapper-cards {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        width: 100%;
+        max-width: 1500px;
+
+        .card {
+            flex-grow: 1;
+            border-radius: 0;
+            
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
+            .card-body {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+        }
+    }
+}
+
+
+.btn.btn-primary {
+    border: none;
+    border-radius: 0;
+}
+
+
+.banner {
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0;
+
+
+    img {
+        width: 100%;
+        max-width: 1500px;
+    }
+
+    .card {
+        position: absolute;
+        left: 13%;
+        border-radius: 0;
+        border: none;
+        padding: 30px;
+    }
+
+    h5 {
+        font-size: 1.5rem;
+        margin-bottom: 16px;
+    }
+
+}
+
+
+.title-business {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 5%;
+    margin-bottom: 20px;
+
+
+    div {
+        width: 100%;
+        max-width: 1500px;
+
+        h3 {
+            font-size: 2.4rem;
+            font-weight: 600;
+        }
+    }
+}
+
+.social-media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 5%;
+    margin-bottom: 20px;
+
+
+    div {
+        width: 100%;
+        max-width: 1500px;
+
+        ul {
+            display: flex;
+            align-items: center;
+            padding: 0 ;
+            margin: 60px 0;
+            gap: 20px;
+
+            li {
+                cursor: pointer;
+            }
+            
+            p{
+                margin: 0;
+                font-size: 1.2rem;
+            }
+
+            img{
+                width: 34px;
+            }
+        }
+    }
+}
+
+.btn-start {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    position: sticky;
+    bottom: 20px;
+
+    a{
+        text-decoration: none;
+        color: #262626;
+        padding: 0.6rem 0.75rem;
+        background: linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.15));
+    }
+}
+
+.footer {
+    margin: 30px;
+    display: flex;
+    background-color:#cecece ;
+
+    ul {
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    ul .bold {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    li {
+        color: #616161;
+    }
+}
