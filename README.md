@@ -48,15 +48,33 @@
         </tr>
         <tr>
             <td>02</td>
-            <td><a href="02">Product Card</a></td>
-            <td>18/01/23</td>
-            <td align="center"><a href="02"><img width="300px" src="02/.github/preview.jpg" /></a></td>
+            <td><a href="./barra-de-progresso/">Barra de progresso</a></td>
+            <td>18/01/24</td>
+            <td align="center"><a href="./barra-de-progresso/"><img width="300px" src="barra-de-progresso/.github/preview.png" /></a></td>
         </tr>
         <tr>
             <td>03</td>
-            <td><a href="03">Botões e Cursores</a></td>
-            <td>25/01/23</td>
-            <td align="center"><a href="03"><img width="300px" src="03/.github/preview.jpg" /></a></td>
+            <td><a href="Pokedex">Pokedex</a></td>
+            <td>16/02/24</td>
+            <td align="center"><a href="./Pokedex/"><img width="300px" src="Pokedex/.github/preview.png" /></a></td>
+        </tr>
+        <tr>
+            <td>04</td>
+            <td><a href="serie-flix">Serie Flix</a></td>
+            <td>05/03/24</td>
+            <td align="center"><a href="./serie-flix/"><img width="300px" src="serie-flix/.github/preview.png" /></a></td>
+        </tr>
+        <tr>
+            <td>05</td>
+            <td><a href="instagram-inicial">Tela inicial Instagram</a></td>
+            <td>10/03/24</td>
+            <td align="center"><a href="./instagram-incial/"><img width="300px" src="instagram-incial/.github/preview.png" /></a></td>
+        </tr>
+        <tr>
+            <td>06</td>
+            <td><a href="jogo-da-velha">Jogo da Velha</a></td>
+            <td>22/10/23</td>
+            <td align="center"><a href="./jogo-da-velha/"><img width="300px" src="jogo-da-velha/.github/preview.png" /></a></td>
         </tr>
         <tr>
             <td></td>
