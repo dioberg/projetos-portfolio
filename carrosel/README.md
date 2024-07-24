@@ -4,7 +4,7 @@
 
 > Treino de Html e CSS
 
-Projeto construído do evento Next Level Week da Rocketseat.
+Projeto construído do evento Dev Club | Programção.
 
 [🔗 Clique aqui para acessar](#)
 
