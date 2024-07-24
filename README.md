@@ -44,7 +44,7 @@
             <td><a href="01">Carrossel</a></td>
             <td>25/05/24</td>
             <td align="center">
-            <a href="01"><img width="300px" src="carrosel/.github/preview.png" /></a></td>
+            <a href="./carrosel/"><img width="300px" src="carrosel/.github/preview.png" /></a></td>
         </tr>
         <tr>
             <td>02</td>
