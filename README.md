@@ -41,7 +41,7 @@
     <tbody>
         <tr>
             <td>01</td>
-            <td><a href="01">Carrossel</a></td>
+            <td><a href="./carrosel/">Carrossel</a></td>
             <td>25/05/24</td>
             <td align="center">
             <a href="./carrosel/"><img width="300px" src="carrosel/.github/preview.png" /></a></td>
