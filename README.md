@@ -77,6 +77,12 @@
             <td align="center"><a href="./jogo-da-velha/"><img width="300px" src="jogo-da-velha/.github/preview.png" /></a></td>
         </tr>
         <tr>
+            <td>07</td>
+            <td><a href="slide-2"> Site Slide</a></td>
+            <td>31/07/24</td>
+            <td align="center"><a href="./slide-2/"><img width="300px" src="slide-2/.github/preview.png" /></a></td>
+        </tr>
+        <tr>
             <td></td>
             <td><a href=""></a></td>
             <td></td>
