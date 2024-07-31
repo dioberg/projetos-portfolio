@@ -6,7 +6,7 @@
 
 Projeto construído do evento Dev Club | Programção.
 
-[🔗 Clique aqui para acessar](#https://66aa41179b2d2f00a0f9e82b--warm-paletas-f6a7cc.netlify.app/)
+[🔗 Clique aqui para acessar](https://66aa41179b2d2f00a0f9e82b--warm-paletas-f6a7cc.netlify.app/)
 
 
 ## 🛠 Tecnologias
